@@ -2,17 +2,17 @@ import requests
 from datetime import datetime
 import os
 
-WEIGHT_KG = 59
-HEIGHT_CM = 178
-AGE = 19
-GENDER = "Male"
+WEIGHT_KG = "YOUR WEIGHT"
+HEIGHT_CM = "YOUR HEIGHT"
+AGE = "YOUR AGE"
+GENDER = "YOUR GENDER"
 
-USERNAME = os.environ["USERNAME"]
-PASSWORD = os.environ["PASSWORD"]
-APP_ID = os.environ["APP_ID"]
-API_KEY = os.environ["API_KEY"]
-sheety_endpoint = os.environ["sheety_endpoint"]
-TOKEN = os.environ["TOKEN"]
+USERNAME = "YOUR USERNAME"
+PASSWORD = "YOUR PASSWORD"
+APP_ID = "YOUR APP ID"
+API_KEY = "YOUR PASSWORD"
+sheety_endpoint = "YOUR SHEETLY ENDPOINT"
+TOKEN = "YOUR SHEETLY TOKEN"
 
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 
